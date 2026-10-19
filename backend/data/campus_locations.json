@@ -1,0 +1,279 @@
+{
+  "locations": [
+    {
+      "id": "main-gate",
+      "name": "Main Gate",
+      "aliases": ["entrance", "front gate", "main entrance", "gate 1"],
+      "category": "GATE",
+      "lat": 23.1000,
+      "lng": 72.5000,
+      "floor": 0,
+      "description": "Primary campus entrance on University Road.",
+      "accessibility": true
+    },
+    {
+      "id": "main-library",
+      "name": "Main Library",
+      "aliases": ["library", "lib", "central library", "book building", "the library"],
+      "category": "BUILDING",
+      "lat": 23.1080,
+      "lng": 72.5060,
+      "floor": 0,
+      "description": "Central academic library with 4 floors and 24/7 reading rooms.",
+      "accessibility": true
+    },
+    {
+      "id": "admin-block",
+      "name": "Administration Block",
+      "aliases": ["admin", "admin block", "admin building", "office", "administration"],
+      "category": "BUILDING",
+      "lat": 23.1040,
+      "lng": 72.5020,
+      "floor": 0,
+      "description": "Administrative offices, registrar, and exam cell.",
+      "accessibility": true
+    },
+    {
+      "id": "cse-dept",
+      "name": "Computer Science Department",
+      "aliases": ["cse", "cs department", "computer science", "cs dept", "coding block"],
+      "category": "BUILDING",
+      "lat": 23.1090,
+      "lng": 72.5100,
+      "floor": 0,
+      "description": "Department of Computer Science and Engineering.",
+      "accessibility": true
+    },
+    {
+      "id": "ece-dept",
+      "name": "Electronics Department",
+      "aliases": ["ece", "electronics", "ee dept", "electrical block"],
+      "category": "BUILDING",
+      "lat": 23.1070,
+      "lng": 72.5120,
+      "floor": 0,
+      "description": "Department of Electronics and Communication Engineering.",
+      "accessibility": true
+    },
+    {
+      "id": "mech-dept",
+      "name": "Mechanical Department",
+      "aliases": ["mech", "mechanical", "mech block", "workshop"],
+      "category": "BUILDING",
+      "lat": 23.1050,
+      "lng": 72.5140,
+      "floor": 0,
+      "description": "Department of Mechanical Engineering with workshop.",
+      "accessibility": true
+    },
+    {
+      "id": "cafeteria",
+      "name": "Main Cafeteria",
+      "aliases": ["caf", "cafe", "canteen", "food court", "mess", "dining"],
+      "category": "BUILDING",
+      "lat": 23.1060,
+      "lng": 72.5080,
+      "floor": 0,
+      "description": "Central dining area serving breakfast, lunch, and dinner.",
+      "accessibility": true
+    },
+    {
+      "id": "sports-complex",
+      "name": "Sports Complex",
+      "aliases": ["sports", "gym", "ground", "sports center", "stadium"],
+      "category": "OPEN_AREA",
+      "lat": 23.1020,
+      "lng": 72.5130,
+      "floor": 0,
+      "description": "Multi-sport facility with indoor gym and outdoor grounds.",
+      "accessibility": true
+    },
+    {
+      "id": "boys-hostel",
+      "name": "Boys Hostel",
+      "aliases": ["boys dorm", "hostel a", "male hostel", "bh"],
+      "category": "BUILDING",
+      "lat": 23.0990,
+      "lng": 72.5090,
+      "floor": 0,
+      "description": "Residential hall for male students.",
+      "accessibility": false
+    },
+    {
+      "id": "girls-hostel",
+      "name": "Girls Hostel",
+      "aliases": ["girls dorm", "hostel b", "female hostel", "gh", "ladies hostel"],
+      "category": "BUILDING",
+      "lat": 23.0985,
+      "lng": 72.5060,
+      "floor": 0,
+      "description": "Residential hall for female students.",
+      "accessibility": true
+    },
+    {
+      "id": "health-center",
+      "name": "Health Center",
+      "aliases": ["medical", "clinic", "hospital", "dispensary", "doctor", "infirmary"],
+      "category": "BUILDING",
+      "lat": 23.1030,
+      "lng": 72.5040,
+      "floor": 0,
+      "description": "Campus medical facility with resident doctor.",
+      "accessibility": true
+    },
+    {
+      "id": "auditorium",
+      "name": "Auditorium",
+      "aliases": ["audi", "hall", "seminar hall", "convention center"],
+      "category": "BUILDING",
+      "lat": 23.1055,
+      "lng": 72.5010,
+      "floor": 0,
+      "description": "1200-seat auditorium for events and convocations.",
+      "accessibility": true
+    },
+    {
+      "id": "central-lawn",
+      "name": "Central Lawn",
+      "aliases": ["lawn", "garden", "central garden", "open area", "green"],
+      "category": "OPEN_AREA",
+      "lat": 23.1050,
+      "lng": 72.5070,
+      "floor": 0,
+      "description": "Central open green space in the heart of campus.",
+      "accessibility": true
+    },
+    {
+      "id": "parking-north",
+      "name": "North Parking",
+      "aliases": ["parking", "north parking lot", "car park north"],
+      "category": "PARKING",
+      "lat": 23.1110,
+      "lng": 72.5060,
+      "floor": 0,
+      "description": "Two-wheeler and four-wheeler parking near academic zone.",
+      "accessibility": true
+    },
+    {
+      "id": "bus-stop",
+      "name": "Campus Bus Stop",
+      "aliases": ["bus stop", "bus", "transit", "shuttle stop", "transport"],
+      "category": "TRANSIT",
+      "lat": 23.0995,
+      "lng": 72.5010,
+      "floor": 0,
+      "description": "Main campus bus pickup and drop point.",
+      "accessibility": true
+    },
+    {
+      "id": "research-block",
+      "name": "Research Block",
+      "aliases": ["research", "r&d", "innovation center", "lab block"],
+      "category": "BUILDING",
+      "lat": 23.1100,
+      "lng": 72.5080,
+      "floor": 0,
+      "description": "Postgraduate research labs and faculty offices.",
+      "accessibility": true
+    },
+    {
+      "id": "civil-dept",
+      "name": "Civil Engineering Department",
+      "aliases": ["civil", "civil dept", "civil block"],
+      "category": "BUILDING",
+      "lat": 23.1035,
+      "lng": 72.5160,
+      "floor": 0,
+      "description": "Department of Civil Engineering.",
+      "accessibility": true
+    },
+    {
+      "id": "gate-north",
+      "name": "North Gate",
+      "aliases": ["north entrance", "back gate", "gate 2", "north gate"],
+      "category": "GATE",
+      "lat": 23.1120,
+      "lng": 72.5080,
+      "floor": 0,
+      "description": "Secondary campus entrance from the north side.",
+      "accessibility": true
+    },
+    {
+      "id": "gate-east",
+      "name": "East Gate",
+      "aliases": ["east entrance", "gate 3", "east gate", "side gate"],
+      "category": "GATE",
+      "lat": 23.1055,
+      "lng": 72.5190,
+      "floor": 0,
+      "description": "East side entry, near civil and mechanical departments.",
+      "accessibility": true
+    },
+    {
+      "id": "atm",
+      "name": "ATM & Bank",
+      "aliases": ["atm", "bank", "cash machine", "sbi", "money"],
+      "category": "BUILDING",
+      "lat": 23.1010,
+      "lng": 72.5025,
+      "floor": 0,
+      "description": "SBI ATM and banking kiosk near health center.",
+      "accessibility": true
+    },
+    {
+      "id": "photocopy-center",
+      "name": "Photocopy & Stationery",
+      "aliases": ["xerox", "photocopy", "stationery", "print shop", "copies"],
+      "category": "BUILDING",
+      "lat": 23.1075,
+      "lng": 72.5055,
+      "floor": 0,
+      "description": "Photocopy, printing, and stationery shop.",
+      "accessibility": true
+    },
+    {
+      "id": "workshop",
+      "name": "Engineering Workshop",
+      "aliases": ["workshop", "lab", "engineering lab", "machine shop"],
+      "category": "BUILDING",
+      "lat": 23.1045,
+      "lng": 72.5150,
+      "floor": 0,
+      "description": "Shared engineering workshop with CNC and lathe machines.",
+      "accessibility": false
+    },
+    {
+      "id": "seminar-room",
+      "name": "Seminar Complex",
+      "aliases": ["seminar", "conference room", "meeting room", "lecture hall"],
+      "category": "BUILDING",
+      "lat": 23.1065,
+      "lng": 72.5035,
+      "floor": 0,
+      "description": "Three seminar halls for departmental events.",
+      "accessibility": true
+    },
+    {
+      "id": "fountain",
+      "name": "Central Fountain",
+      "aliases": ["fountain", "water fountain", "roundabout"],
+      "category": "OPEN_AREA",
+      "lat": 23.1040,
+      "lng": 72.5070,
+      "floor": 0,
+      "description": "Decorative fountain at the campus center junction.",
+      "accessibility": true
+    },
+    {
+      "id": "canteen-north",
+      "name": "North Canteen",
+      "aliases": ["north canteen", "small canteen", "snack bar", "tea stall"],
+      "category": "BUILDING",
+      "lat": 23.1095,
+      "lng": 72.5045,
+      "floor": 0,
+      "description": "Small canteen near research and library zone.",
+      "accessibility": true
+    }
+  ]
+}
