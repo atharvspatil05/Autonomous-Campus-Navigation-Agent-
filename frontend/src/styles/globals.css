@@ -225,8 +225,12 @@ h1, h2, h3, h4 {
   font-family: 'Inter', sans-serif;
 }
 
-.leaflet-tile {
+.map-dark .leaflet-tile {
   filter: invert(1) hue-rotate(200deg) brightness(0.85) contrast(0.9);
+}
+
+.map-satellite .leaflet-tile {
+  filter: contrast(1.05) brightness(0.95);
 }
 
 /* ── Step indicator ────────────────────────────────────────────── */

@@ -1,125 +1,1616 @@
 {
   "nodes": [
-    {"id": "n_main_gate",      "lat": 23.1000, "lng": 72.5000, "location_id": "main-gate",       "node_type": "ENTRANCE",  "is_accessible": true,  "label": "Main Gate"},
-    {"id": "n_bus_stop",       "lat": 23.0995, "lng": 72.5010, "location_id": "bus-stop",        "node_type": "LANDMARK",  "is_accessible": true,  "label": "Bus Stop"},
-    {"id": "n_atm",            "lat": 23.1010, "lng": 72.5025, "location_id": "atm",             "node_type": "LANDMARK",  "is_accessible": true,  "label": "ATM & Bank"},
-    {"id": "n_health",         "lat": 23.1030, "lng": 72.5040, "location_id": "health-center",   "node_type": "ENTRANCE",  "is_accessible": true,  "label": "Health Center"},
-    {"id": "n_admin",          "lat": 23.1040, "lng": 72.5020, "location_id": "admin-block",     "node_type": "ENTRANCE",  "is_accessible": true,  "label": "Admin Block"},
-    {"id": "n_auditorium",     "lat": 23.1055, "lng": 72.5010, "location_id": "auditorium",      "node_type": "ENTRANCE",  "is_accessible": true,  "label": "Auditorium"},
-    {"id": "n_seminar",        "lat": 23.1065, "lng": 72.5035, "location_id": "seminar-room",    "node_type": "ENTRANCE",  "is_accessible": true,  "label": "Seminar Complex"},
-    {"id": "n_fountain",       "lat": 23.1040, "lng": 72.5070, "location_id": "fountain",        "node_type": "LANDMARK",  "is_accessible": true,  "label": "Central Fountain"},
-    {"id": "n_central_lawn",   "lat": 23.1050, "lng": 72.5070, "location_id": "central-lawn",   "node_type": "LANDMARK",  "is_accessible": true,  "label": "Central Lawn"},
-    {"id": "n_cafeteria",      "lat": 23.1060, "lng": 72.5080, "location_id": "cafeteria",       "node_type": "ENTRANCE",  "is_accessible": true,  "label": "Cafeteria"},
-    {"id": "n_photocopy",      "lat": 23.1075, "lng": 72.5055, "location_id": "photocopy-center","node_type": "LANDMARK",  "is_accessible": true,  "label": "Photocopy Shop"},
-    {"id": "n_library",        "lat": 23.1080, "lng": 72.5060, "location_id": "main-library",    "node_type": "ENTRANCE",  "is_accessible": true,  "label": "Main Library"},
-    {"id": "n_canteen_north",  "lat": 23.1095, "lng": 72.5045, "location_id": "canteen-north",   "node_type": "ENTRANCE",  "is_accessible": true,  "label": "North Canteen"},
-    {"id": "n_research",       "lat": 23.1100, "lng": 72.5080, "location_id": "research-block",  "node_type": "ENTRANCE",  "is_accessible": true,  "label": "Research Block"},
-    {"id": "n_cse",            "lat": 23.1090, "lng": 72.5100, "location_id": "cse-dept",        "node_type": "ENTRANCE",  "is_accessible": true,  "label": "CSE Dept"},
-    {"id": "n_ece",            "lat": 23.1070, "lng": 72.5120, "location_id": "ece-dept",        "node_type": "ENTRANCE",  "is_accessible": true,  "label": "ECE Dept"},
-    {"id": "n_mech",           "lat": 23.1050, "lng": 72.5140, "location_id": "mech-dept",       "node_type": "ENTRANCE",  "is_accessible": true,  "label": "Mech Dept"},
-    {"id": "n_workshop",       "lat": 23.1045, "lng": 72.5150, "location_id": "workshop",        "node_type": "ENTRANCE",  "is_accessible": false, "label": "Workshop"},
-    {"id": "n_civil",          "lat": 23.1035, "lng": 72.5160, "location_id": "civil-dept",      "node_type": "ENTRANCE",  "is_accessible": true,  "label": "Civil Dept"},
-    {"id": "n_gate_east",      "lat": 23.1055, "lng": 72.5190, "location_id": "gate-east",       "node_type": "ENTRANCE",  "is_accessible": true,  "label": "East Gate"},
-    {"id": "n_sports",         "lat": 23.1020, "lng": 72.5130, "location_id": "sports-complex",  "node_type": "ENTRANCE",  "is_accessible": true,  "label": "Sports Complex"},
-    {"id": "n_boys_hostel",    "lat": 23.0990, "lng": 72.5090, "location_id": "boys-hostel",     "node_type": "ENTRANCE",  "is_accessible": false, "label": "Boys Hostel"},
-    {"id": "n_girls_hostel",   "lat": 23.0985, "lng": 72.5060, "location_id": "girls-hostel",    "node_type": "ENTRANCE",  "is_accessible": true,  "label": "Girls Hostel"},
-    {"id": "n_parking_north",  "lat": 23.1110, "lng": 72.5060, "location_id": "parking-north",   "node_type": "LANDMARK",  "is_accessible": true,  "label": "North Parking"},
-    {"id": "n_gate_north",     "lat": 23.1120, "lng": 72.5080, "location_id": "gate-north",      "node_type": "ENTRANCE",  "is_accessible": true,  "label": "North Gate"},
-
-    {"id": "j_01", "lat": 23.1005, "lng": 72.5040, "node_type": "JUNCTION", "is_accessible": true,  "label": "J1 South Path"},
-    {"id": "j_02", "lat": 23.1020, "lng": 72.5060, "node_type": "JUNCTION", "is_accessible": true,  "label": "J2 Central West"},
-    {"id": "j_03", "lat": 23.1020, "lng": 72.5080, "node_type": "JUNCTION", "is_accessible": true,  "label": "J3 South Mid"},
-    {"id": "j_04", "lat": 23.1020, "lng": 72.5100, "node_type": "JUNCTION", "is_accessible": true,  "label": "J4 South East"},
-    {"id": "j_05", "lat": 23.1035, "lng": 72.5050, "node_type": "JUNCTION", "is_accessible": true,  "label": "J5 Admin Cross"},
-    {"id": "j_06", "lat": 23.1035, "lng": 72.5080, "node_type": "JUNCTION", "is_accessible": true,  "label": "J6 Fountain West"},
-    {"id": "j_07", "lat": 23.1035, "lng": 72.5110, "node_type": "JUNCTION", "is_accessible": true,  "label": "J7 ECE Approach"},
-    {"id": "j_08", "lat": 23.1050, "lng": 72.5050, "node_type": "JUNCTION", "is_accessible": true,  "label": "J8 Library South"},
-    {"id": "j_09", "lat": 23.1050, "lng": 72.5100, "node_type": "JUNCTION", "is_accessible": true,  "label": "J9 ECE Junction"},
-    {"id": "j_10", "lat": 23.1050, "lng": 72.5125, "node_type": "JUNCTION", "is_accessible": true,  "label": "J10 Mech Cross"},
-    {"id": "j_11", "lat": 23.1060, "lng": 72.5060, "node_type": "JUNCTION", "is_accessible": true,  "label": "J11 Library Cross"},
-    {"id": "j_12", "lat": 23.1070, "lng": 72.5080, "node_type": "JUNCTION", "is_accessible": true,  "label": "J12 Research South"},
-    {"id": "j_13", "lat": 23.1070, "lng": 72.5100, "node_type": "JUNCTION", "is_accessible": true,  "label": "J13 CSE South"},
-    {"id": "j_14", "lat": 23.1080, "lng": 72.5040, "node_type": "JUNCTION", "is_accessible": true,  "label": "J14 North West"},
-    {"id": "j_15", "lat": 23.1100, "lng": 72.5060, "node_type": "JUNCTION", "is_accessible": true,  "label": "J15 North Mid"},
-    {"id": "j_16", "lat": 23.1000, "lng": 72.5070, "node_type": "JUNCTION", "is_accessible": true,  "label": "J16 Hostel West"},
-    {"id": "j_17", "lat": 23.1000, "lng": 72.5100, "node_type": "JUNCTION", "is_accessible": true,  "label": "J17 Sports North"},
-    {"id": "j_18", "lat": 23.1055, "lng": 72.5160, "node_type": "JUNCTION", "is_accessible": true,  "label": "J18 East Corridor"},
-    {"id": "j_19", "lat": 23.1035, "lng": 72.5130, "node_type": "JUNCTION", "is_accessible": true,  "label": "J19 Civil Approach"},
-    {"id": "j_20", "lat": 23.1080, "lng": 72.5120, "node_type": "JUNCTION", "is_accessible": true,  "label": "J20 CSE North"},
-    {"id": "j_ramp_01", "lat": 23.1042, "lng": 72.5073, "node_type": "WAYPOINT", "is_accessible": true,  "label": "Ramp near Fountain"},
-    {"id": "j_stairs_01","lat": 23.1048, "lng": 72.5077, "node_type": "WAYPOINT", "is_accessible": false, "label": "Stairs Central"}
+    {
+      "id": "n_polytechnic",
+      "lat": 19.90093851947799,
+      "lng": 74.49489462009508,
+      "location_id": "diploma-polytechnic",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Sanjivani K.B.P. Polytechnic"
+    },
+    {
+      "id": "n_cse",
+      "lat": 19.901015,
+      "lng": 74.494495,
+      "location_id": "cse-dept",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Department of Computer Engineering"
+    },
+    {
+      "id": "n_ece",
+      "lat": 19.90098,
+      "lng": 74.494455,
+      "location_id": "ece-dept",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Electronics"
+    },
+    {
+      "id": "n_it",
+      "lat": 19.901445,
+      "lng": 74.495055,
+      "location_id": "it-dept",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Department of Information Technology"
+    },
+    {
+      "id": "n_mba",
+      "lat": 19.901405,
+      "lng": 74.495015,
+      "location_id": "mba-dept",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Department of Management Studies"
+    },
+    {
+      "id": "n_mech",
+      "lat": 19.901675,
+      "lng": 74.494505,
+      "location_id": "mech-dept",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Department of Mechanical Engineering"
+    },
+    {
+      "id": "n_civil",
+      "lat": 19.901645,
+      "lng": 74.494465,
+      "location_id": "civil-dept",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Department of Civil Engineering"
+    },
+    {
+      "id": "n_mechatronics",
+      "lat": 19.9016948,
+      "lng": 74.494829,
+      "location_id": "mechatronics-dept",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Department of Mechatronics Engineering"
+    },
+    {
+      "id": "n_structural",
+      "lat": 19.901665,
+      "lng": 74.494805,
+      "location_id": "structural-dept",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Department of Structural Engineering"
+    },
+    {
+      "id": "n_ee",
+      "lat": 19.901725,
+      "lng": 74.494855,
+      "location_id": "ee-dept",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Department of Electrical Engineering"
+    },
+    {
+      "id": "n_fe_block",
+      "lat": 19.90115,
+      "lng": 74.49425,
+      "location_id": "first-year-block",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Engineering Science"
+    },
+    {
+      "id": "n_idea_lab",
+      "lat": 19.90195,
+      "lng": 74.49455,
+      "location_id": "research-block",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "AICTE IDEA Lab"
+    },
+    {
+      "id": "n_workshop",
+      "lat": 19.9018,
+      "lng": 74.4943,
+      "location_id": "workshop",
+      "is_accessible": false,
+      "node_type": "LANDMARK",
+      "label": "Central Engineering Workshop"
+    },
+    {
+      "id": "n_main_gate",
+      "lat": 19.9003897,
+      "lng": 74.4949413,
+      "location_id": "main-gate",
+      "is_accessible": true,
+      "node_type": "ENTRANCE",
+      "label": "Sanjivani Main Entrance Gate"
+    },
+    {
+      "id": "n_amphitheater",
+      "lat": 19.9013912,
+      "lng": 74.4946667,
+      "location_id": "seminar-room",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Sanjivani Open Auditorium"
+    },
+    {
+      "id": "n_banquet",
+      "lat": 19.9035532,
+      "lng": 74.4936568,
+      "location_id": "banquet-hall",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Sanjivani Banquet Hall"
+    },
+    {
+      "id": "n_admin",
+      "lat": 19.90065,
+      "lng": 74.49475,
+      "location_id": "admin-block",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Administrative Block"
+    },
+    {
+      "id": "n_roundabout",
+      "lat": 19.9007,
+      "lng": 74.49465,
+      "location_id": "fountain",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Sanjivani Central Roundabout"
+    },
+    {
+      "id": "n_gym",
+      "lat": 19.9028307,
+      "lng": 74.4958727,
+      "location_id": "fitness-center",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Central Fitness Center"
+    },
+    {
+      "id": "n_sports",
+      "lat": 19.9025315,
+      "lng": 74.4949634,
+      "location_id": "sports-complex",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Sanjivani University Ground"
+    },
+    {
+      "id": "n_tennis",
+      "lat": 19.903197,
+      "lng": 74.4946214,
+      "location_id": "lawn-tennis-court",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Sanjivani Lawn Tennis Court"
+    },
+    {
+      "id": "n_basketball",
+      "lat": 19.9032456,
+      "lng": 74.4949225,
+      "location_id": "basketball-ground",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Sanjivani Basketball Ground"
+    },
+    {
+      "id": "n_indoor_sports",
+      "lat": 19.90295,
+      "lng": 74.49595,
+      "location_id": "indoor-sports",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Indoor Sports"
+    },
+    {
+      "id": "n_girls_gym",
+      "lat": 19.90188,
+      "lng": 74.49558,
+      "location_id": "girls-gym",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Girls Private Workout Gym"
+    },
+    {
+      "id": "n_boys_hostel",
+      "lat": 19.903581,
+      "lng": 74.4956397,
+      "location_id": "boys-hostel",
+      "is_accessible": false,
+      "node_type": "LANDMARK",
+      "label": "Sahyadri Boys Hostel Wings"
+    },
+    {
+      "id": "n_girls_hostel",
+      "lat": 19.90189596498053,
+      "lng": 74.4955247309237,
+      "location_id": "girls-hostel",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Godavari Girls Hostel Block"
+    },
+    {
+      "id": "n_staff_quarters",
+      "lat": 19.9036841,
+      "lng": 74.4942107,
+      "location_id": "staff-quarters",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Sanjivani Staff Quarters"
+    },
+    {
+      "id": "n_rector",
+      "lat": 19.90345,
+      "lng": 74.4938,
+      "location_id": "rector-residence",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Rector"
+    },
+    {
+      "id": "n_parking",
+      "lat": 19.9008449,
+      "lng": 74.4932454,
+      "location_id": "parking-north",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Main Campus Parking Zone"
+    },
+    {
+      "id": "n_parking_sheds",
+      "lat": 19.90095,
+      "lng": 74.49335,
+      "location_id": "parking-sheds",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Student Two-Wheeler Weather Sheds"
+    },
+    {
+      "id": "n_accessible_bay",
+      "lat": 19.9008,
+      "lng": 74.4947,
+      "location_id": "accessible-ramp-bay",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Accessible Parking Bays"
+    },
+    {
+      "id": "n_bus_stand",
+      "lat": 19.90025,
+      "lng": 74.49495,
+      "location_id": "bus-stop",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Sanjivani Campus Bus Stand"
+    },
+    {
+      "id": "n_cafeteria",
+      "lat": 19.90185,
+      "lng": 74.49465,
+      "location_id": "cafeteria",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Main Central Cafeteria"
+    },
+    {
+      "id": "n_hostel_mess",
+      "lat": 19.90345,
+      "lng": 74.4952,
+      "location_id": "hostel-mess",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Hostel Central Mess Halls"
+    },
+    {
+      "id": "n_kiosks",
+      "lat": 19.9029,
+      "lng": 74.4944,
+      "location_id": "canteen-north",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Campus Kiosks"
+    },
+    {
+      "id": "n_library",
+      "lat": 19.901251240445323,
+      "lng": 74.49508576042132,
+      "location_id": "main-library",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Sanjivani Central Library"
+    },
+    {
+      "id": "n_digital_library",
+      "lat": 19.90128,
+      "lng": 74.49512,
+      "location_id": "digital-library",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Digital Research Wing"
+    },
+    {
+      "id": "n_reading_lounges",
+      "lat": 19.90122,
+      "lng": 74.49511,
+      "location_id": "reading-lounges",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Quiet Reading Lounges"
+    },
+    {
+      "id": "n_xerox",
+      "lat": 19.9013,
+      "lng": 74.49492,
+      "location_id": "photocopy-center",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Student Consumer Store"
+    },
+    {
+      "id": "n_atm",
+      "lat": 19.90045,
+      "lng": 74.49488,
+      "location_id": "atm",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "HDFC Bank"
+    },
+    {
+      "id": "n_health",
+      "lat": 19.90055,
+      "lng": 74.49465,
+      "location_id": "health-center",
+      "is_accessible": true,
+      "node_type": "LANDMARK",
+      "label": "Campus First Aid"
+    },
+    {
+      "id": "w_main_gate_curb",
+      "lat": 19.9004,
+      "lng": 74.49492,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Main Gate Curb"
+    },
+    {
+      "id": "w_admin_circle",
+      "lat": 19.90065,
+      "lng": 74.49478,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Admin Plaza Roundabout"
+    },
+    {
+      "id": "w_poly_comp_cross",
+      "lat": 19.90095,
+      "lng": 74.49478,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Polytechnic & Computing Crossing"
+    },
+    {
+      "id": "w_auditorium_cross",
+      "lat": 19.90135,
+      "lng": 74.49478,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Auditorium & Library Crossing"
+    },
+    {
+      "id": "w_engg_plaza_cross",
+      "lat": 19.90165,
+      "lng": 74.49472,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Central Engineering Crossing"
+    },
+    {
+      "id": "w_central_plaza",
+      "lat": 19.9019,
+      "lng": 74.4947,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Central Cafeteria Plaza"
+    },
+    {
+      "id": "w_ground_south_cross",
+      "lat": 19.90225,
+      "lng": 74.49475,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "University Ground South Gateway"
+    },
+    {
+      "id": "w_parking_road_1",
+      "lat": 19.90065,
+      "lng": 74.494,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "South Parking Avenue Mid"
+    },
+    {
+      "id": "w_parking_road_2",
+      "lat": 19.9007,
+      "lng": 74.49335,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Main Parking Entrance"
+    },
+    {
+      "id": "w_west_perimeter_mid",
+      "lat": 19.902,
+      "lng": 74.4934,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "West Perimeter Road Mid"
+    },
+    {
+      "id": "w_west_perimeter_north",
+      "lat": 19.903,
+      "lng": 74.4934,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "West Perimeter Road North"
+    },
+    {
+      "id": "w_poly_front",
+      "lat": 19.90094,
+      "lng": 74.49485,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Polytechnic Front Entrance"
+    },
+    {
+      "id": "w_comp_court",
+      "lat": 19.90098,
+      "lng": 74.49455,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Computer & ECE Courtyard"
+    },
+    {
+      "id": "w_fe_path",
+      "lat": 19.9011,
+      "lng": 74.49435,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "First-Year Block Walkway"
+    },
+    {
+      "id": "w_auditorium_entry",
+      "lat": 19.90137,
+      "lng": 74.4947,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Open Auditorium Steps"
+    },
+    {
+      "id": "w_library_it_court",
+      "lat": 19.90135,
+      "lng": 74.49495,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Library & IT/MBA Central Courtyard"
+    },
+    {
+      "id": "w_library_front",
+      "lat": 19.90125,
+      "lng": 74.49502,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Central Library Porch"
+    },
+    {
+      "id": "w_it_mba_front",
+      "lat": 19.90142,
+      "lng": 74.49498,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "IT & MBA Front Entrance"
+    },
+    {
+      "id": "w_mech_civil_court",
+      "lat": 19.90166,
+      "lng": 74.49455,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Mechanical & Civil Courtyard"
+    },
+    {
+      "id": "w_workshop_path",
+      "lat": 19.90175,
+      "lng": 74.49435,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Workshop Walkway"
+    },
+    {
+      "id": "w_mechatronics_front",
+      "lat": 19.90168,
+      "lng": 74.4948,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Mechatronics & Electrical Porch"
+    },
+    {
+      "id": "w_girls_hostel_lane",
+      "lat": 19.90172,
+      "lng": 74.4952,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Girls Hostel Entrance Lane"
+    },
+    {
+      "id": "w_girls_hostel_gate",
+      "lat": 19.90185,
+      "lng": 74.49542,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Girls Hostel Security Gate"
+    },
+    {
+      "id": "w_east_ground_road",
+      "lat": 19.90235,
+      "lng": 74.4956,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "East Sports Road"
+    },
+    {
+      "id": "w_gym_sports_junction",
+      "lat": 19.90275,
+      "lng": 74.49575,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Gym & Sports Complex Junction"
+    },
+    {
+      "id": "w_ground_west_road",
+      "lat": 19.9028,
+      "lng": 74.49455,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "West Ground Road"
+    },
+    {
+      "id": "w_courts_junction",
+      "lat": 19.90315,
+      "lng": 74.49455,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Tennis & Basketball Promenade"
+    },
+    {
+      "id": "w_ground_north_road",
+      "lat": 19.9032,
+      "lng": 74.4953,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "North Ground Promenade"
+    },
+    {
+      "id": "w_boys_hostel_lane",
+      "lat": 19.9034,
+      "lng": 74.4956,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Boys Hostel Gateway Lane"
+    },
+    {
+      "id": "w_north_staff_cross",
+      "lat": 19.90345,
+      "lng": 74.4944,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "North Staff Quarters Crossing"
+    },
+    {
+      "id": "w_banquet_avenue",
+      "lat": 19.90345,
+      "lng": 74.4938,
+      "location_id": null,
+      "is_accessible": true,
+      "node_type": "JUNCTION",
+      "label": "Banquet Hall Avenue"
+    }
   ],
-
   "edges": [
-    {"id": "e_gate_j01",        "source_id": "n_main_gate",    "target_id": "j_01",          "weight": 45.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_gate_bus",        "source_id": "n_main_gate",    "target_id": "n_bus_stop",    "weight": 20.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_bus_j01",         "source_id": "n_bus_stop",     "target_id": "j_01",          "weight": 32.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j01_atm",         "source_id": "j_01",           "target_id": "n_atm",         "weight": 20.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j01_j02",         "source_id": "j_01",           "target_id": "j_02",          "weight": 40.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_atm_health",      "source_id": "n_atm",          "target_id": "n_health",      "weight": 28.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_health_j05",      "source_id": "n_health",       "target_id": "j_05",          "weight": 18.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_admin_j05",       "source_id": "n_admin",        "target_id": "j_05",          "weight": 22.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_admin_auditorium","source_id": "n_admin",        "target_id": "n_auditorium",  "weight": 28.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_auditorium_j01",  "source_id": "n_auditorium",   "target_id": "j_01",          "weight": 52.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j05_seminar",     "source_id": "j_05",           "target_id": "n_seminar",     "weight": 30.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j05_j06",         "source_id": "j_05",           "target_id": "j_06",          "weight": 35.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j05_j08",         "source_id": "j_05",           "target_id": "j_08",          "weight": 30.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j02_j06",         "source_id": "j_02",           "target_id": "j_06",          "weight": 25.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j02_j03",         "source_id": "j_02",           "target_id": "j_03",          "weight": 25.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j16_j02",         "source_id": "j_16",           "target_id": "j_02",          "weight": 30.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j16_girls",       "source_id": "j_16",           "target_id": "n_girls_hostel","weight": 20.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_girls_boys",      "source_id": "n_girls_hostel", "target_id": "n_boys_hostel", "weight": 25.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_boys_j03",        "source_id": "n_boys_hostel",  "target_id": "j_03",          "weight": 35.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j03_j04",         "source_id": "j_03",           "target_id": "j_04",          "weight": 25.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j04_sports",      "source_id": "j_04",           "target_id": "n_sports",      "weight": 22.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j17_sports",      "source_id": "j_17",           "target_id": "n_sports",      "weight": 18.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j17_j04",         "source_id": "j_17",           "target_id": "j_04",          "weight": 20.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j06_fountain",    "source_id": "j_06",           "target_id": "n_fountain",    "weight": 22.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_fountain_ramp",   "source_id": "n_fountain",     "target_id": "j_ramp_01",     "weight": 12.0,  "surface": "RAMP",   "bidirectional": true},
-    {"id": "e_fountain_stairs", "source_id": "n_fountain",     "target_id": "j_stairs_01",   "weight": 8.0,   "surface": "STAIRS", "bidirectional": true},
-    {"id": "e_ramp_lawn",       "source_id": "j_ramp_01",      "target_id": "n_central_lawn","weight": 12.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_stairs_lawn",     "source_id": "j_stairs_01",    "target_id": "n_central_lawn","weight": 8.0,   "surface": "PATH",   "bidirectional": true},
-    {"id": "e_lawn_cafeteria",  "source_id": "n_central_lawn", "target_id": "n_cafeteria",   "weight": 25.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_lawn_j09",        "source_id": "n_central_lawn", "target_id": "j_09",          "weight": 30.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j06_j03",         "source_id": "j_06",           "target_id": "j_03",          "weight": 28.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j06_j07",         "source_id": "j_06",           "target_id": "j_07",          "weight": 30.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j07_ece",         "source_id": "j_07",           "target_id": "n_ece",         "weight": 35.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j07_j19",         "source_id": "j_07",           "target_id": "j_19",          "weight": 28.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j19_civil",       "source_id": "j_19",           "target_id": "n_civil",       "weight": 25.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j19_workshop",    "source_id": "j_19",           "target_id": "n_workshop",    "weight": 20.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j19_mech",        "source_id": "j_19",           "target_id": "n_mech",        "weight": 20.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_workshop_j18",    "source_id": "n_workshop",     "target_id": "j_18",          "weight": 22.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_civil_j18",       "source_id": "n_civil",        "target_id": "j_18",          "weight": 25.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j18_gate_east",   "source_id": "j_18",           "target_id": "n_gate_east",   "weight": 30.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j08_photocopy",   "source_id": "j_08",           "target_id": "n_photocopy",   "weight": 28.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j08_j11",         "source_id": "j_08",           "target_id": "j_11",          "weight": 25.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j11_library",     "source_id": "j_11",           "target_id": "n_library",     "weight": 22.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j11_cafeteria",   "source_id": "j_11",           "target_id": "n_cafeteria",   "weight": 18.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j11_j12",         "source_id": "j_11",           "target_id": "j_12",          "weight": 28.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_library_photocopy","source_id":"n_library",      "target_id": "n_photocopy",   "weight": 20.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_library_j14",     "source_id": "n_library",      "target_id": "j_14",          "weight": 30.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j14_canteen_n",   "source_id": "j_14",           "target_id": "n_canteen_north","weight": 22.0, "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j14_j15",         "source_id": "j_14",           "target_id": "j_15",          "weight": 28.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j15_parking",     "source_id": "j_15",           "target_id": "n_parking_north","weight": 20.0, "surface": "ROAD",   "bidirectional": true},
-    {"id": "e_j15_research",    "source_id": "j_15",           "target_id": "n_research",    "weight": 18.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j15_gate_north",  "source_id": "j_15",           "target_id": "n_gate_north",  "weight": 25.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_parking_gate_n",  "source_id": "n_parking_north","target_id": "n_gate_north",  "weight": 22.0,  "surface": "ROAD",   "bidirectional": true},
-    {"id": "e_research_cse",    "source_id": "n_research",     "target_id": "n_cse",         "weight": 25.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_research_j12",    "source_id": "n_research",     "target_id": "j_12",          "weight": 25.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j12_cse",         "source_id": "j_12",           "target_id": "n_cse",         "weight": 28.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j12_j13",         "source_id": "j_12",           "target_id": "j_13",          "weight": 22.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j13_ece",         "source_id": "j_13",           "target_id": "n_ece",         "weight": 22.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j13_j09",         "source_id": "j_13",           "target_id": "j_09",          "weight": 25.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j09_mech",        "source_id": "j_09",           "target_id": "n_mech",        "weight": 28.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j09_j10",         "source_id": "j_09",           "target_id": "j_10",          "weight": 22.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j10_mech",        "source_id": "j_10",           "target_id": "n_mech",        "weight": 18.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_cse_j20",         "source_id": "n_cse",          "target_id": "j_20",          "weight": 22.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j20_ece",         "source_id": "j_20",           "target_id": "n_ece",         "weight": 30.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j04_j07",         "source_id": "j_04",           "target_id": "j_07",          "weight": 40.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j03_j06",         "source_id": "j_03",           "target_id": "j_06",          "weight": 28.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_seminar_j08",     "source_id": "n_seminar",      "target_id": "j_08",          "weight": 32.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_gate_north_j15",  "source_id": "n_gate_north",   "target_id": "j_15",          "weight": 25.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j16_main_gate",   "source_id": "j_16",           "target_id": "n_main_gate",   "weight": 48.0,  "surface": "PATH",   "bidirectional": true},
-    {"id": "e_j16_j03",         "source_id": "j_16",           "target_id": "j_03",          "weight": 40.0,  "surface": "PATH",   "bidirectional": true}
+    {
+      "id": "e_n_bus_stand_n_main_gate",
+      "source_id": "n_bus_stand",
+      "target_id": "n_main_gate",
+      "weight": 15.56,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_n_main_gate_w_main_gate_curb",
+      "source_id": "n_main_gate",
+      "target_id": "w_main_gate_curb",
+      "weight": 4.0,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_main_gate_curb_n_atm",
+      "source_id": "w_main_gate_curb",
+      "target_id": "n_atm",
+      "weight": 6.96,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_main_gate_curb_w_admin_circle",
+      "source_id": "w_main_gate_curb",
+      "target_id": "w_admin_circle",
+      "weight": 31.42,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_admin_circle_n_admin",
+      "source_id": "w_admin_circle",
+      "target_id": "n_admin",
+      "weight": 4.0,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_admin_circle_n_health",
+      "source_id": "w_admin_circle",
+      "target_id": "n_health",
+      "weight": 17.56,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_admin_circle_n_roundabout",
+      "source_id": "w_admin_circle",
+      "target_id": "n_roundabout",
+      "weight": 14.69,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_admin_circle_w_parking_road_1",
+      "source_id": "w_admin_circle",
+      "target_id": "w_parking_road_1",
+      "weight": 81.55,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_parking_road_1_w_parking_road_2",
+      "source_id": "w_parking_road_1",
+      "target_id": "w_parking_road_2",
+      "weight": 68.19,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_parking_road_2_n_parking",
+      "source_id": "w_parking_road_2",
+      "target_id": "n_parking",
+      "weight": 19.47,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_n_parking_n_parking_sheds",
+      "source_id": "n_parking",
+      "target_id": "n_parking_sheds",
+      "weight": 16.01,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_parking_road_2_w_west_perimeter_mid",
+      "source_id": "w_parking_road_2",
+      "target_id": "w_west_perimeter_mid",
+      "weight": 144.65,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_admin_circle_w_poly_comp_cross",
+      "source_id": "w_admin_circle",
+      "target_id": "w_poly_comp_cross",
+      "weight": 33.36,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_poly_comp_cross_w_poly_front",
+      "source_id": "w_poly_comp_cross",
+      "target_id": "w_poly_front",
+      "weight": 7.4,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_poly_front_n_polytechnic",
+      "source_id": "w_poly_front",
+      "target_id": "n_polytechnic",
+      "weight": 4.67,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_poly_comp_cross_w_comp_court",
+      "source_id": "w_poly_comp_cross",
+      "target_id": "w_comp_court",
+      "weight": 24.28,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_comp_court_n_cse",
+      "source_id": "w_comp_court",
+      "target_id": "n_cse",
+      "weight": 6.94,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_comp_court_n_ece",
+      "source_id": "w_comp_court",
+      "target_id": "n_ece",
+      "weight": 9.93,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_comp_court_w_fe_path",
+      "source_id": "w_comp_court",
+      "target_id": "w_fe_path",
+      "weight": 24.81,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_fe_path_n_fe_block",
+      "source_id": "w_fe_path",
+      "target_id": "n_fe_block",
+      "weight": 11.84,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_comp_court_n_accessible_bay",
+      "source_id": "w_comp_court",
+      "target_id": "n_accessible_bay",
+      "weight": 25.43,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_poly_comp_cross_w_auditorium_cross",
+      "source_id": "w_poly_comp_cross",
+      "target_id": "w_auditorium_cross",
+      "weight": 44.48,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_auditorium_cross_w_auditorium_entry",
+      "source_id": "w_auditorium_cross",
+      "target_id": "w_auditorium_entry",
+      "weight": 8.65,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_auditorium_entry_n_amphitheater",
+      "source_id": "w_auditorium_entry",
+      "target_id": "n_amphitheater",
+      "weight": 4.2,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_auditorium_cross_w_library_it_court",
+      "source_id": "w_auditorium_cross",
+      "target_id": "w_library_it_court",
+      "weight": 17.77,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_library_it_court_w_library_front",
+      "source_id": "w_library_it_court",
+      "target_id": "w_library_front",
+      "weight": 13.31,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_library_front_n_library",
+      "source_id": "w_library_front",
+      "target_id": "n_library",
+      "weight": 6.88,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_n_library_n_digital_library",
+      "source_id": "n_library",
+      "target_id": "n_digital_library",
+      "weight": 4.8,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_n_library_n_reading_lounges",
+      "source_id": "n_library",
+      "target_id": "n_reading_lounges",
+      "weight": 4.3,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_library_it_court_n_xerox",
+      "source_id": "w_library_it_court",
+      "target_id": "n_xerox",
+      "weight": 6.38,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_library_it_court_w_it_mba_front",
+      "source_id": "w_library_it_court",
+      "target_id": "w_it_mba_front",
+      "weight": 8.39,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_it_mba_front_n_it",
+      "source_id": "w_it_mba_front",
+      "target_id": "n_it",
+      "weight": 8.32,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_it_mba_front_n_mba",
+      "source_id": "w_it_mba_front",
+      "target_id": "n_mba",
+      "weight": 4.02,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_auditorium_cross_w_engg_plaza_cross",
+      "source_id": "w_auditorium_cross",
+      "target_id": "w_engg_plaza_cross",
+      "weight": 33.94,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_engg_plaza_cross_w_mech_civil_court",
+      "source_id": "w_engg_plaza_cross",
+      "target_id": "w_mech_civil_court",
+      "weight": 17.81,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_mech_civil_court_n_mech",
+      "source_id": "w_mech_civil_court",
+      "target_id": "n_mech",
+      "weight": 4.99,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_mech_civil_court_n_civil",
+      "source_id": "w_mech_civil_court",
+      "target_id": "n_civil",
+      "weight": 9.04,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_mech_civil_court_w_workshop_path",
+      "source_id": "w_mech_civil_court",
+      "target_id": "w_workshop_path",
+      "weight": 23.18,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_workshop_path_n_workshop",
+      "source_id": "w_workshop_path",
+      "target_id": "n_workshop",
+      "weight": 7.63,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_engg_plaza_cross_w_mechatronics_front",
+      "source_id": "w_engg_plaza_cross",
+      "target_id": "w_mechatronics_front",
+      "weight": 9.0,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_mechatronics_front_n_mechatronics",
+      "source_id": "w_mechatronics_front",
+      "target_id": "n_mechatronics",
+      "weight": 4.0,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_mechatronics_front_n_ee",
+      "source_id": "w_mechatronics_front",
+      "target_id": "n_ee",
+      "weight": 7.62,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_mechatronics_front_n_structural",
+      "source_id": "w_mechatronics_front",
+      "target_id": "n_structural",
+      "weight": 4.0,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_mechatronics_front_w_girls_hostel_lane",
+      "source_id": "w_mechatronics_front",
+      "target_id": "w_girls_hostel_lane",
+      "weight": 42.06,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_library_it_court_w_girls_hostel_lane",
+      "source_id": "w_library_it_court",
+      "target_id": "w_girls_hostel_lane",
+      "weight": 48.74,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_girls_hostel_lane_w_girls_hostel_gate",
+      "source_id": "w_girls_hostel_lane",
+      "target_id": "w_girls_hostel_gate",
+      "weight": 27.17,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_girls_hostel_gate_n_girls_hostel",
+      "source_id": "w_girls_hostel_gate",
+      "target_id": "n_girls_hostel",
+      "weight": 12.08,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_girls_hostel_gate_n_girls_gym",
+      "source_id": "w_girls_hostel_gate",
+      "target_id": "n_girls_gym",
+      "weight": 17.06,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_girls_hostel_gate_w_east_ground_road",
+      "source_id": "w_girls_hostel_gate",
+      "target_id": "w_east_ground_road",
+      "weight": 58.7,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_east_ground_road_w_gym_sports_junction",
+      "source_id": "w_east_ground_road",
+      "target_id": "w_gym_sports_junction",
+      "weight": 47.16,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_gym_sports_junction_n_gym",
+      "source_id": "w_gym_sports_junction",
+      "target_id": "n_gym",
+      "weight": 15.66,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_gym_sports_junction_n_indoor_sports",
+      "source_id": "w_gym_sports_junction",
+      "target_id": "n_indoor_sports",
+      "weight": 30.53,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_engg_plaza_cross_w_central_plaza",
+      "source_id": "w_engg_plaza_cross",
+      "target_id": "w_central_plaza",
+      "weight": 27.88,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_central_plaza_n_cafeteria",
+      "source_id": "w_central_plaza",
+      "target_id": "n_cafeteria",
+      "weight": 7.63,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_central_plaza_n_idea_lab",
+      "source_id": "w_central_plaza",
+      "target_id": "n_idea_lab",
+      "weight": 16.64,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_central_plaza_w_ground_south_cross",
+      "source_id": "w_central_plaza",
+      "target_id": "w_ground_south_cross",
+      "weight": 39.27,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_ground_south_cross_n_sports",
+      "source_id": "w_ground_south_cross",
+      "target_id": "n_sports",
+      "weight": 38.44,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_ground_south_cross_w_ground_west_road",
+      "source_id": "w_ground_south_cross",
+      "target_id": "w_ground_west_road",
+      "weight": 64.63,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_ground_west_road_w_courts_junction",
+      "source_id": "w_ground_west_road",
+      "target_id": "w_courts_junction",
+      "weight": 38.92,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_courts_junction_n_tennis",
+      "source_id": "w_courts_junction",
+      "target_id": "n_tennis",
+      "weight": 9.11,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_courts_junction_n_basketball",
+      "source_id": "w_courts_junction",
+      "target_id": "n_basketball",
+      "weight": 40.37,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_courts_junction_n_kiosks",
+      "source_id": "w_courts_junction",
+      "target_id": "n_kiosks",
+      "weight": 31.92,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_courts_junction_w_ground_north_road",
+      "source_id": "w_courts_junction",
+      "target_id": "w_ground_north_road",
+      "weight": 78.61,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_ground_north_road_w_gym_sports_junction",
+      "source_id": "w_ground_north_road",
+      "target_id": "w_gym_sports_junction",
+      "weight": 68.68,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_gym_sports_junction_w_boys_hostel_lane",
+      "source_id": "w_gym_sports_junction",
+      "target_id": "w_boys_hostel_lane",
+      "weight": 73.96,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_boys_hostel_lane_n_boys_hostel",
+      "source_id": "w_boys_hostel_lane",
+      "target_id": "n_boys_hostel",
+      "weight": 20.55,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_boys_hostel_lane_n_hostel_mess",
+      "source_id": "w_boys_hostel_lane",
+      "target_id": "n_hostel_mess",
+      "weight": 42.19,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_courts_junction_w_north_staff_cross",
+      "source_id": "w_courts_junction",
+      "target_id": "w_north_staff_cross",
+      "weight": 36.86,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_north_staff_cross_n_staff_quarters",
+      "source_id": "w_north_staff_cross",
+      "target_id": "n_staff_quarters",
+      "weight": 32.7,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_north_staff_cross_w_banquet_avenue",
+      "source_id": "w_north_staff_cross",
+      "target_id": "w_banquet_avenue",
+      "weight": 62.73,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_banquet_avenue_n_banquet",
+      "source_id": "w_banquet_avenue",
+      "target_id": "n_banquet",
+      "weight": 18.86,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_banquet_avenue_n_rector",
+      "source_id": "w_banquet_avenue",
+      "target_id": "n_rector",
+      "weight": 4.0,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_banquet_avenue_w_west_perimeter_north",
+      "source_id": "w_banquet_avenue",
+      "target_id": "w_west_perimeter_north",
+      "weight": 65.21,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    },
+    {
+      "id": "e_w_west_perimeter_north_w_west_perimeter_mid",
+      "source_id": "w_west_perimeter_north",
+      "target_id": "w_west_perimeter_mid",
+      "weight": 111.19,
+      "bidirectional": true,
+      "surface": "PATH",
+      "is_blocked": false,
+      "tags": [
+        "walkway",
+        "paved"
+      ]
+    }
   ]
 }

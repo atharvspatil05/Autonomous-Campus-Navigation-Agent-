@@ -72,7 +72,8 @@ class TestResolveLocationEndpoint:
 
 class TestEdgeBlockingEndpoint:
     def test_block_and_unblock_edge(self, client: TestClient):
-        edge_id = "e_j11_library"
+        graph_resp = client.get("/api/v1/graph")
+        edge_id = graph_resp.json()["edges"][0]["id"]
         # Block
         resp = client.patch(f"/api/v1/navigation/graph/edges/{edge_id}/block", json={"is_blocked": True})
         assert resp.status_code == 200

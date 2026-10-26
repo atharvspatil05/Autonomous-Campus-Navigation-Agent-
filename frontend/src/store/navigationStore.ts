@@ -29,6 +29,15 @@ interface NavigationState {
   sidebarOpen: boolean
   showGraph: boolean
 
+  // Walk Simulation state
+  isWalking: boolean
+  isPausedWalking: boolean
+  walkSpeed: number
+  voiceEnabled: boolean
+  userPosition: [number, number] | null
+  hasArrived: boolean
+  walkProgress: number
+
   // Actions
   setQuery: (q: string) => void
   setOriginNodeId: (id: string) => void
@@ -48,6 +57,17 @@ interface NavigationState {
   removeBlockedEdge: (edgeId: string) => void
   clearNavigation: () => void
   applyReplan: (route: Route) => void
+
+  // Walk Actions
+  setIsWalking: (v: boolean) => void
+  setIsPausedWalking: (v: boolean) => void
+  setWalkSpeed: (s: number) => void
+  toggleVoice: () => void
+  setUserPosition: (pos: [number, number] | null) => void
+  setHasArrived: (v: boolean) => void
+  setWalkProgress: (p: number) => void
+  startWalking: () => void
+  stopWalking: () => void
 }
 
 export const useNavigationStore = create<NavigationState>((set) => ({
@@ -72,12 +92,21 @@ export const useNavigationStore = create<NavigationState>((set) => ({
   sidebarOpen: true,
   showGraph: true,
 
+  // Walk Simulation state defaults
+  isWalking: false,
+  isPausedWalking: false,
+  walkSpeed: 1,
+  voiceEnabled: true,
+  userPosition: null,
+  hasArrived: false,
+  walkProgress: 0,
+
   setQuery: (q) => set({ query: q }),
   setOriginNodeId: (id) => set({ originNodeId: id }),
   setAlgorithm: (a) => set({ algorithm: a }),
   setAccessibleOnly: (v) => set({ accessibleOnly: v }),
 
-  setResponse: (r) => set({ response: r, currentRoute: r?.route ?? null, currentStep: 0 }),
+  setResponse: (r) => set({ response: r, currentRoute: r?.route ?? null, currentStep: 0, isWalking: false, isPausedWalking: false, hasArrived: false, userPosition: null, walkProgress: 0 }),
 
   setCurrentStep: (step) => set({ currentStep: step }),
   advanceStep: () => set((s) => ({
@@ -109,7 +138,18 @@ export const useNavigationStore = create<NavigationState>((set) => ({
       return { blockedEdgeIds: next, mapEdges }
     }),
 
-  clearNavigation: () => set({ response: null, currentRoute: null, currentStep: 0, error: null }),
+  clearNavigation: () => set({ response: null, currentRoute: null, currentStep: 0, error: null, isWalking: false, isPausedWalking: false, hasArrived: false, userPosition: null, walkProgress: 0 }),
 
   applyReplan: (route) => set({ currentRoute: route, currentStep: 0, isReplanning: false }),
+
+  // Walk Actions
+  setIsWalking: (v) => set({ isWalking: v }),
+  setIsPausedWalking: (v) => set({ isPausedWalking: v }),
+  setWalkSpeed: (s) => set({ walkSpeed: s }),
+  toggleVoice: () => set((s) => ({ voiceEnabled: !s.voiceEnabled })),
+  setUserPosition: (pos) => set({ userPosition: pos }),
+  setHasArrived: (v) => set({ hasArrived: v }),
+  setWalkProgress: (p) => set({ walkProgress: p }),
+  startWalking: () => set({ isWalking: true, isPausedWalking: false, hasArrived: false, walkProgress: 0, currentStep: 0 }),
+  stopWalking: () => set({ isWalking: false, isPausedWalking: false, userPosition: null, walkProgress: 0, hasArrived: false }),
 }))
